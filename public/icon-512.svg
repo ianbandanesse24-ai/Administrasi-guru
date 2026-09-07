@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#4338ca"/>
+      <stop offset="50%" stop-color="#2563eb"/>
+      <stop offset="100%" stop-color="#0d9488"/>
+    </linearGradient>
+    <linearGradient id="shieldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="100%" stop-color="#e0e7ff"/>
+    </linearGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="16" stdDeviation="20" flood-color="#000000" flood-opacity="0.35"/>
+    </filter>
+  </defs>
+  
+  <!-- Rounded Base Background -->
+  <rect width="512" height="512" rx="128" fill="url(#bgGrad)"/>
+  
+  <!-- Outer glowing ring -->
+  <circle cx="256" cy="256" r="210" fill="none" stroke="#ffffff" stroke-opacity="0.15" stroke-width="8"/>
+  
+  <!-- Central Badge Graphics -->
+  <g filter="url(#shadow)">
+    <!-- Open Book / Diploma symbol -->
+    <path d="M120 340 C 180 310, 240 330, 256 350 C 272 330, 332 310, 392 340 L 392 180 C 332 150, 272 170, 256 190 C 240 170, 180 150, 120 180 Z" 
+          fill="url(#shieldGrad)" opacity="0.95"/>
+    
+    <!-- Central Divider -->
+    <line x1="256" y1="190" x2="256" y2="350" stroke="#4338ca" stroke-width="6" stroke-linecap="round"/>
+    
+    <!-- Sparkles / Star of Learning -->
+    <path d="M256 100 L 266 128 L 294 138 L 266 148 L 256 176 L 246 148 L 218 138 L 246 128 Z" fill="#fbbf24"/>
+    <circle cx="160" cy="130" r="10" fill="#38bdf8"/>
+    <circle cx="352" cy="130" r="10" fill="#34d399"/>
+  </g>
+
+  <!-- Typography Text AGK -->
+  <text x="256" y="440" font-family="system-ui, -apple-system, sans-serif" font-size="56" font-weight="900" fill="#ffffff" text-anchor="middle" letter-spacing="6">
+    AGK
+  </text>
+  <text x="256" y="475" font-family="system-ui, -apple-system, sans-serif" font-size="20" font-weight="700" fill="#a5f3fc" text-anchor="middle" letter-spacing="2">
+    GURU KREATIF
+  </text>
+</svg>

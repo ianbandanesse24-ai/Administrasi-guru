@@ -1,0 +1,6 @@
+{
+  "name": "ADMINISTRASI GURU KREATIF",
+  "description": "Aplikasi Administrasi Guru Kreatif lengkap dengan manajemen absensi, jadwal, agenda, jurnal, guru wali, penilaian otomatis, asisten AI kurikulum Deep Learning & Merdeka (SD-SMA), sinkronisasi Supabase, serta otorisasi admin & client bertingkat.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
